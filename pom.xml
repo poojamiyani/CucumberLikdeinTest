@@ -77,7 +77,7 @@
 		<scope>compile</scope>
 	</dependency>
 	
-<!--	<dependency>
+	<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>1.2.5</version>
@@ -88,7 +88,7 @@
 					<artifactId>junit</artifactId>
 				</exclusion>
 			</exclusions>
-   </dependency> -->
+   </dependency> 
 
 
   </dependencies>
