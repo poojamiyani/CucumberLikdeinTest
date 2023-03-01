@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="41.473798">
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="17.695869">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page....................................................passed
+Then user enters "patelpoojaa1432@gmail.com" and "8153866233p"..............passed
+Then user clicks on login button............................................passed
+Then user get error for email...............................................passed
+Then user select profile....................................................passed
+Then user edit intro "punii" and "pooooooooooo" and "Pooja".................passed
+Then user click login button................................................passed
+Then user quit..............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario 2" time="9.47601">
+        <failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(@class,'global-nav__primary-link--active global-nav__primary-link')]//div[contains(@class,'')]//div[contains(@class,'')]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DREAM', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33988, moz:profile: C:\Users\miyan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e5a01ab3-896f-4d22-859e-cab50fc75347&#10;*** Element info: {Using=xpath, value=//a[contains(@class,'global-nav__primary-link--active global-nav__primary-link')]//div[contains(@class,'')]//div[contains(@class,'')]}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at stepDefinitions.LoginStepDefinition.user_select_profile(LoginStepDefinition.java:60)&#13;&#10;&#9;at ✽.Then user select profile(login.feature:11)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page....................................................passed
+Then user enters "tom" and "test456"........................................passed
+Then user clicks on login button............................................passed
+Then user get error for email...............................................passed
+Then user select profile....................................................failed
+Then user edit intro "tommm" and "fhgdjhg" and ""...........................skipped
+Then user click login button................................................skipped
+Then user quit..............................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(@class,'global-nav__primary-link--active global-nav__primary-link')]//div[contains(@class,'')]//div[contains(@class,'')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DREAM', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 33988, moz:profile: C:\Users\miyan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e5a01ab3-896f-4d22-859e-cab50fc75347
+*** Element info: {Using=xpath, value=//a[contains(@class,'global-nav__primary-link--active global-nav__primary-link')]//div[contains(@class,'')]//div[contains(@class,'')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinitions.LoginStepDefinition.user_select_profile(LoginStepDefinition.java:60)
+	at ✽.Then user select profile(login.feature:11)
+]]></failure>
+    </testcase>
+    <testcase classname="message data creation" name="Free CRM Create a new message scenario" time="14.301919">
+        <system-out><![CDATA[Given user is already Login Page............................................passed
+When title login page.......................................................passed
+Then user enters username and password......................................passed
+Then user clicks login button...............................................passed
+Then user get error.........................................................passed
+Then user is home page......................................................passed
+Then user moves to new message page.........................................passed
+Then user enters deal details...............................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

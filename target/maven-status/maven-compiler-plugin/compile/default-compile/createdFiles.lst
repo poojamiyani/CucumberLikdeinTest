@@ -1,0 +1,6 @@
+stepDefinitions\LoginStepDefinition.class
+stepDefinitions\MessageStepDefinition.class
+stepDefinitions\GlobalHooksStepDefinition.class
+stepDefinitions\TaggingStepDefinition.class
+runner\TestRunner.class
+stepDefinitions\HooksStepDefinition.class
